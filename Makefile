@@ -63,11 +63,13 @@ Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c \
 Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c \
 Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c \
 Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c \
-Core/Src/system_stm32l4xx.c  
+Core/Src/system_stm32l4xx.c \
+startup_stm32l476xx.c
+
 
 # ASM sources
-ASM_SOURCES =  \
-startup_stm32l476xx.s
+ASM_SOURCES = \
+# startup_stm32l476xx.c
 
 
 #######################################

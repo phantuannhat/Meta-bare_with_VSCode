@@ -55,7 +55,7 @@ static void MX_USART2_UART_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-char *message = "Hi Richard!\r\n";
+char *message = "Hi Richard Phan!\r\n";
 /* USER CODE END 0 */
 
 /**
@@ -98,9 +98,8 @@ int main(void)
     /* USER CODE END WHILE */
     HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin);
     HAL_UART_Transmit(&huart2, (uint8_t*)message, strlen(message), HAL_MAX_DELAY);
-    HAL_Delay(1000);
-    HAL_UART_Transmit(&huart2, (uint8_t*)message, strlen(message), HAL_MAX_DELAY);
-    HAL_Delay(1000);
+    HAL_Delay(2000);
+
 
     /* USER CODE BEGIN 3 */
   }
