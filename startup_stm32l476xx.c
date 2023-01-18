@@ -39,17 +39,16 @@ void Reset_Handler(){
   __initialize_data(&_sidata, &_sdata, &_edata);
   __initialize_bss(&_sbss, &_ebss);
 
-
   SystemInit();
   __libc_init_array();
 
   main();
-
+	
   for(;;);
 }
 
 
-
+// Default handler for unimplemented interupts
 void Default_Handler(){
   while(1);
 }
@@ -147,9 +146,8 @@ __WEAK void	RNG_IRQHandler(void)                  { Default_Handler(); }
 __WEAK void	FPU_IRQHandler(void)                  { Default_Handler(); }
 
 
-__attribute__((section(".isr_vector")))
-const void (*VectorTable[])(void) = {
-  (const void (*)(void)) &_estack,
+const void (*VectorTable[])(void) __attribute__((section(".isr_vector"))) = {
+  (const void (*)(void)) &_estack,       // Initial stack pointer
   Reset_Handler,
 	NMI_Handler,
 	HardFault_Handler,

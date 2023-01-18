@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 1
+ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 1
   29:Core/Src/main.c **** 
   30:Core/Src/main.c **** /* USER CODE END PTD */
   31:Core/Src/main.c **** 
-ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 2
+ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s 			page 2
 
 
   32:Core/Src/main.c **** /* Private define ------------------------------------------------------------*/
@@ -87,7 +87,7 @@ ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 1
   55:Core/Src/main.c **** 
   56:Core/Src/main.c **** /* Private user code ---------------------------------------------------------*/
   57:Core/Src/main.c **** /* USER CODE BEGIN 0 */
-  58:Core/Src/main.c **** char *message = "Hi Richard Phan!\r\n";
+  58:Core/Src/main.c **** char *message = "Hi Kim Salamanca!\r\n";
   59:Core/Src/main.c **** /* USER CODE END 0 */
   60:Core/Src/main.c **** 
   61:Core/Src/main.c **** /**
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 1
   86:Core/Src/main.c **** 
   87:Core/Src/main.c ****   /* Initialize all configured peripherals */
   88:Core/Src/main.c ****   MX_GPIO_Init();
-ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 3
+ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s 			page 3
 
 
   89:Core/Src/main.c ****   MX_USART2_UART_Init();
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 1
  143:Core/Src/main.c ****   /** Initializes the CPU, AHB and APB buses clocks
  144:Core/Src/main.c ****   */
  145:Core/Src/main.c ****   RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
-ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 4
+ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s 			page 4
 
 
  146:Core/Src/main.c ****                               |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 1
   28              		.loc 1 199 1 view -0
   29              		.cfi_startproc
   30              		@ args = 0, pretend = 0, frame = 40
-ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 5
+ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s 			page 5
 
 
   31              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 1
   79              		.loc 1 205 3 view .LVU15
   80              	.LBB6:
   81              		.loc 1 205 3 view .LVU16
-ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 6
+ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s 			page 6
 
 
   82              		.loc 1 205 3 view .LVU17
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 1
  126              		.loc 1 215 3 is_stmt 1 view .LVU34
  127 0074 05A9     		add	r1, sp, #20
  128 0076 0948     		ldr	r0, .L3+4
-ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 7
+ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s 			page 7
 
 
  129 0078 FFF7FEFF 		bl	HAL_GPIO_Init
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 1
  228:Core/Src/main.c **** /* USER CODE END 4 */
  229:Core/Src/main.c **** 
  230:Core/Src/main.c **** /**
-ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 8
+ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s 			page 8
 
 
  231:Core/Src/main.c ****   * @brief  This function is executed in case of error occurrence.
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 1
   37:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
   38:Drivers/CMSIS/Include/cmsis_gcc.h **** 
   39:Drivers/CMSIS/Include/cmsis_gcc.h **** /* CMSIS compiler specific defines */
-ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 9
+ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s 			page 9
 
 
   40:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __ASM
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 1
   94:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __UNALIGNED_UINT32_WRITE
   95:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic push
   96:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic ignored "-Wpacked"
-ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 10
+ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s 			page 10
 
 
   97:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic ignored "-Wattributes"
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 1
  151:Drivers/CMSIS/Include/cmsis_gcc.h ****   for (__copy_table_t const* pTable = &__copy_table_start__; pTable < &__copy_table_end__; ++pTable
  152:Drivers/CMSIS/Include/cmsis_gcc.h ****     for(uint32_t i=0u; i<pTable->wlen; ++i) {
  153:Drivers/CMSIS/Include/cmsis_gcc.h ****       pTable->dest[i] = pTable->src[i];
-ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 11
+ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s 			page 11
 
 
  154:Drivers/CMSIS/Include/cmsis_gcc.h ****     }
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 1
  183              		.loc 2 207 27 view .LVU47
  184              	.LBB9:
  208:Drivers/CMSIS/Include/cmsis_gcc.h **** {
-ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 12
+ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s 			page 12
 
 
  209:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("cpsid i" : : : "memory");
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 1
  229              		.loc 1 175 26 is_stmt 0 view .LVU58
  230 000e 0023     		movs	r3, #0
  231 0010 8360     		str	r3, [r0, #8]
-ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 13
+ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s 			page 13
 
 
  176:Core/Src/main.c ****   huart2.Init.Parity = UART_PARITY_NONE;
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 1
  267 002e 00BF     		.align	2
  268              	.L11:
  269 0030 00000000 		.word	.LANCHOR0
-ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 14
+ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s 			page 14
 
 
  270 0034 00440040 		.word	1073759232
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 1
  128:Core/Src/main.c ****   RCC_OscInitStruct.HSIState = RCC_HSI_ON;
  317              		.loc 1 128 36 is_stmt 0 view .LVU87
  318 0024 0223     		movs	r3, #2
-ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 15
+ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s 			page 15
 
 
  319 0026 0593     		str	r3, [sp, #20]
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 1
  353              		.loc 1 138 7 is_stmt 0 view .LVU107
  354 0046 05A8     		add	r0, sp, #20
  355 0048 FFF7FEFF 		bl	HAL_RCC_OscConfig
-ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 16
+ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s 			page 16
 
 
  356              	.LVL7:
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 1
  122:Core/Src/main.c ****   }
  395              		.loc 1 122 5 is_stmt 1 view .LVU123
  396 006e FFF7FEFF 		bl	Error_Handler
-ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 17
+ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s 			page 17
 
 
  397              	.LVL9:
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 1
  444 0014 4FF09040 		mov	r0, #1207959552
  445 0018 FFF7FEFF 		bl	HAL_GPIO_TogglePin
  446              	.LVL16:
-ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 18
+ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s 			page 18
 
 
  100:Core/Src/main.c ****     HAL_Delay(2000);
@@ -1057,11 +1057,11 @@ ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 1
  476              		.section	.rodata.str1.4,"aMS",%progbits,1
  477              		.align	2
  478              	.LC0:
- 479 0000 48692052 		.ascii	"Hi Richard Phan!\015\012\000"
- 479      69636861 
- 479      72642050 
- 479      68616E21 
- 479      0D0A00
+ 479 0000 4869204B 		.ascii	"Hi Kim Salamanca!\015\012\000"
+ 479      696D2053 
+ 479      616C616D 
+ 479      616E6361 
+ 479      210D0A00 
  480              		.global	huart2
  481              		.section	.bss.huart2,"aw",%nobits
  482              		.align	2
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 1
  493              	message:
  494 0000 00000000 		.word	.LC0
  495              		.text
-ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 19
+ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s 			page 19
 
 
  496              	.Letext0:
@@ -1094,29 +1094,29 @@ ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 1
  506              		.file 12 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h"
  507              		.file 13 "c:\\gnu_arm_embedded\\arm-none-eabi\\include\\string.h"
  508              		.file 14 "<built-in>"
-ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s 			page 20
+ARM GAS  C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s 			page 20
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 main.c
-C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s:20     .text.MX_GPIO_Init:00000000 $t
-C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s:25     .text.MX_GPIO_Init:00000000 MX_GPIO_Init
-C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s:159    .text.MX_GPIO_Init:00000098 $d
-C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s:165    .text.Error_Handler:00000000 $t
-C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s:171    .text.Error_Handler:00000000 Error_Handler
-C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s:203    .text.MX_USART2_UART_Init:00000000 $t
-C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s:208    .text.MX_USART2_UART_Init:00000000 MX_USART2_UART_Init
-C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s:269    .text.MX_USART2_UART_Init:00000030 $d
-C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s:275    .text.SystemClock_Config:00000000 $t
-C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s:281    .text.SystemClock_Config:00000000 SystemClock_Config
-C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s:410    .text.main:00000000 $t
-C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s:416    .text.main:00000000 main
-C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s:470    .text.main:00000040 $d
-C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s:493    .data.message:00000000 message
-C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s:477    .rodata.str1.4:00000000 $d
-C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s:486    .bss.huart2:00000000 huart2
-C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s:482    .bss.huart2:00000000 $d
-C:\Users\Admin\AppData\Local\Temp\ccyEseg2.s:489    .data.message:00000000 $d
+C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s:20     .text.MX_GPIO_Init:00000000 $t
+C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s:25     .text.MX_GPIO_Init:00000000 MX_GPIO_Init
+C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s:159    .text.MX_GPIO_Init:00000098 $d
+C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s:165    .text.Error_Handler:00000000 $t
+C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s:171    .text.Error_Handler:00000000 Error_Handler
+C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s:203    .text.MX_USART2_UART_Init:00000000 $t
+C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s:208    .text.MX_USART2_UART_Init:00000000 MX_USART2_UART_Init
+C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s:269    .text.MX_USART2_UART_Init:00000030 $d
+C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s:275    .text.SystemClock_Config:00000000 $t
+C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s:281    .text.SystemClock_Config:00000000 SystemClock_Config
+C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s:410    .text.main:00000000 $t
+C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s:416    .text.main:00000000 main
+C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s:470    .text.main:00000040 $d
+C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s:493    .data.message:00000000 message
+C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s:477    .rodata.str1.4:00000000 $d
+C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s:486    .bss.huart2:00000000 huart2
+C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s:482    .bss.huart2:00000000 $d
+C:\Users\Admin\AppData\Local\Temp\ccXmmX7G.s:489    .data.message:00000000 $d
 
 UNDEFINED SYMBOLS
 HAL_GPIO_WritePin

@@ -1464,8 +1464,7 @@ LOAD c:/gnu_arm_embedded/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard
  *(.rodata)
  *(.rodata*)
  .rodata.str1.4
-                0x08002500       0x13 build/main.o
- *fill*         0x08002513        0x1 
+                0x08002500       0x14 build/main.o
  .rodata.AHBPrescTable
                 0x08002514       0x10 build/system_stm32l4xx.o
                 0x08002514                AHBPrescTable
@@ -1711,7 +1710,7 @@ LOAD c:/gnu_arm_embedded/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard
  .debug_ranges  0x000007e0       0x18 build/system_stm32l4xx.o
  .debug_ranges  0x000007f8      0x2e8 build/startup_stm32l476xx.o
 
-.debug_line     0x00000000     0xa7df
+.debug_line     0x00000000     0xa7dc
  .debug_line    0x00000000      0x444 build/main.o
  .debug_line    0x00000444      0x177 build/stm32l4xx_it.o
  .debug_line    0x000005bb      0x293 build/stm32l4xx_hal_msp.o
@@ -1723,7 +1722,7 @@ LOAD c:/gnu_arm_embedded/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard
  .debug_line    0x00008ae9      0xa98 build/stm32l4xx_hal_pwr_ex.o
  .debug_line    0x00009581      0x72f build/stm32l4xx_hal_cortex.o
  .debug_line    0x00009cb0      0x254 build/system_stm32l4xx.o
- .debug_line    0x00009f04      0x8db build/startup_stm32l476xx.o
+ .debug_line    0x00009f04      0x8d8 build/startup_stm32l476xx.o
 
 .debug_str      0x00000000     0x365e
  .debug_str     0x00000000      0x960 build/main.o

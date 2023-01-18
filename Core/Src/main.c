@@ -55,7 +55,7 @@ static void MX_USART2_UART_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-char *message = "Hi Richard Phan!\r\n";
+char *message = "Hi Kim Salamanca!\r\n";
 /* USER CODE END 0 */
 
 /**
