@@ -217,3 +217,4 @@ reset:
 flash:
 	openocd -f interface/stlink.cfg -f target/stm32l4x.cfg
 	# openocd -f interface/stlink.cfg -f target/stm32l4x.cfg -c "program $(BUILD_DIR)/$(TARGET).elf verify reset exit"
+
